@@ -1,0 +1,30 @@
+/*
+*画面のスタイルシート
+*/
+
+body{
+    font-family: "Noto sans JP" "sans-selif";
+    margin: 0;
+    min-width: 1076px;
+}
+
+.color-green {
+    color: #00abae;
+}
+
+/*
+*[header]のスタイルシート
+*/
+
+.block-header {
+    margin: 10px 0;
+    padding: 0 20px 10px;
+    box-shadow: 0 10px 10px -5px rgba(204, 204, 204, 0.3);
+}
+
+.block-header a {
+    font-size: 40px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
