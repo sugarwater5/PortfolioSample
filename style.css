@@ -54,7 +54,7 @@ body{
 
 .item-list b{
     display: block;
-    font-size: 24;
+    font-size: 24px;
     font-weight: normal;
     margin: 20px 0 30px;
 }
@@ -79,4 +79,76 @@ body{
 }
 .icon-list li :last-child{
 margin-right: 0;
+}
+
+
+/*
+*[works]のスタイルシート
+*/
+
+.box-works{
+    margin: 80px 0 0;
+}
+
+.works-list{
+    list-style: none;
+    width: 100%;
+    max-width: 1076px;
+    margin: 30px auto;
+    padding: 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+.works-list li{
+    display: block;
+    width: 100%;
+    max-width: 348px; 
+    float: left;
+    margin-right: 15px;
+}
+
+.works-list li:last-child{
+    margin-right: 0;
+}
+
+.works-list li img{
+    width: 100%;
+    border: 1px solid #ccc;
+
+}
+
+.works-list li h3{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.works-list li span{
+    font-size: 18px;
+}
+
+.works-list li .link{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+}
+
+.works-list li .link a{
+    background-color: rgb(226, 226, 226);
+    padding: 5px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*
+*[footer]のスタイルシート
+*/
+
+.block-footer{
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    margin: 50px 0 20px;
 }
