@@ -138,6 +138,7 @@ margin-right: 0;
     background-color: rgb(226, 226, 226);
     padding: 5px 20px;
     margin-right: 10px;
+    font-size: 15px;
     text-decoration: none;
     color: #000;
 }
@@ -146,9 +147,92 @@ margin-right: 0;
 *[footer]のスタイルシート
 */
 
-.block-footer{
+.block-footer p{
     clear: both;
     text-align: center;
     font-size: 15px;
     margin: 50px 0 20px;
+}
+
+/*
+*スマホ用のスタイルシート
+*/
+
+@media screen and (max-width: 767px) {
+    body{
+        min-width: 100%;
+    }
+
+    /*
+    *[header]のスタイルシート
+    */
+
+    .block-header {
+        padding: 0 10px 10px;
+        box-shadow: 0 8px 8px -5px rgba(204, 204, 204, 0.3);
+    }
+    
+    .block-header a {
+        font-size: 31px;
+    }
+
+    /*
+    *[main]のスタイルシート
+    */
+
+    .block-main{
+    margin: 50px 0;
+    }
+    
+    /*
+    *[profile]のスタイルシート
+    */
+
+    .box-profile{
+        padding: 0 10px;
+    }
+    
+    .item-list b{
+        font-size: 18px;
+    }
+
+
+    .icon-list{
+        max-width: 100%;
+    }
+
+    .icon-list li{
+        margin-right: 25px;
+    }
+
+    /*
+    *[works]のスタイルシート
+    */
+
+    .box-works{
+        margin: 60px 0 0;
+        padding: 0 10px;
+    }
+
+    .works-list{
+        max-width: 100%;
+    }
+
+    .works-list li{
+        max-width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .works-list h3{
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    .works-list span{
+        font-size: 14px;
+    }
+
+
+
 }
